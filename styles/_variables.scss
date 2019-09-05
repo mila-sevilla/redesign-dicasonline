@@ -12,11 +12,7 @@ $font-size-heading: 20px;
 $font-weight-regular: 400;
 $font-weight-bold: 500;
 
-//ANIMATIONS
-$hover-transition: all .2s ease-in-out;
-
 // GLOBAL
-
 * {
   box-sizing: border-box;
 }
@@ -51,10 +47,8 @@ p {
 button,
 a {
   text-decoration: none;
-  transition: $hover-transition;
 
   &:hover {
     cursor: pointer;
   } 
 }
- 

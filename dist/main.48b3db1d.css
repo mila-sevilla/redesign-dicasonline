@@ -39,7 +39,7 @@ a:hover {
 
 .header {
   align-items: center;
-  border-bottom: 1px solid #EDE7E7;
+  border-bottom: 1px solid;
   border-bottom-color: #ede7e7;
   display: flex;
   height: 64px;
@@ -195,15 +195,15 @@ article {
 }
 
 .popularIcon {
-  background-image: url(/starIcon.d6bf3677.svg);
+  background-image: url("/starIcon.d6bf3677.svg");
 }
 
 .hotIcon {
-  background-image: url(/hotIcon.874ba26d.svg);
+  background-image: url("/hotIcon.874ba26d.svg");
 }
 
 .trendIcon {
-  background-image: url(/trendingIcon.a081f75f.svg);
+  background-image: url("/trendingIcon.a081f75f.svg");
 }
 
 @media (min-width: 400px) {

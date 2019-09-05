@@ -1,8 +1,8 @@
-@import "./variables";
+@import './variables';
 
 .header {
   align-items: center;
-  border-bottom: 1px solid #EDE7E7;
+  border-bottom: 1px solid;
   border-bottom-color: $color-border-light;
   display: flex;
   height: 64px;
@@ -49,7 +49,7 @@
     scrollbar-width: none; // hides scrollbar for firefox
 
     &::-webkit-scrollbar {
-      height: 0 ; // hides scrollbar for chrome
+      height: 0; // hides scrollbar for chrome
     }
 
     a {
@@ -186,13 +186,15 @@ article {
 }
 
 .popularIcon {
-  background-image: url(/assets/starIcon.svg);
+  background-image: url('/assets/starIcon.svg');
 }
+
 .hotIcon {
-  background-image: url(/assets/hotIcon.svg);
+  background-image: url('/assets/hotIcon.svg');
 }
+
 .trendIcon {
-  background-image: url(/assets/trendingIcon.svg);
+  background-image: url('/assets/trendingIcon.svg');
 }
 
 // Media Queries

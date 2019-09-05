@@ -39,10 +39,13 @@ a:hover {
 
 .header {
   align-items: center;
+  background-color: white;
   border-bottom: 1px solid;
   border-bottom-color: #ede7e7;
   display: flex;
   height: 64px;
+  position: fixed;
+  width: 100%;
 }
 .header__logo {
   display: flex;
@@ -72,6 +75,8 @@ a:hover {
 .navBar {
   display: flex;
   justify-content: center;
+  margin: 74px 16px 0;
+  width: 100%;
 }
 .navBar__links {
   display: flex;
@@ -99,6 +104,7 @@ section > h2 {
   border-bottom: 1px solid;
   border-bottom-color: #e35441;
   font-size: 18px;
+  font-weight: 500;
   margin: 0 0 20px;
   padding-bottom: 10px;
 }
@@ -209,6 +215,10 @@ article {
 @media (min-width: 400px) {
   .mainContent__container {
     margin: 15px 20px 0;
+  }
+
+  .navBar {
+    margin: 74px 20px 0;
   }
 }
 @media (min-width: 680px) {

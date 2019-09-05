@@ -1,0 +1,57 @@
+// COLORS
+$color-text-dark: #252526;
+$color-text-light: #868688;
+$color-primary: #E35441;
+$color-border-light: #EDE7E7;
+
+// FONT
+$font-size-small: 13px;
+$font-size-medium: 15px;
+$font-size-large: 18px;
+$font-size-heading: 20px;
+$font-weight-regular: 400;
+$font-weight-bold: 500;
+
+//ANIMATIONS
+$hover-transition: all .2s ease-in-out;
+
+// GLOBAL
+
+*{
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0; 
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $color-text-dark;
+}
+
+h1,
+h2,
+p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box; // necessary to cut off text after two lines
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+p {
+  color: $color-text-light;
+  font-size: $font-size-small;
+}
+
+button, 
+a {
+  transition: $hover-transition;
+  text-decoration: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

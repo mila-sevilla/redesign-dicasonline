@@ -14,13 +14,13 @@ body {
 }
 
 h1,
-h2,
-p {
+h2 {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #252526;
 }
 
 p {

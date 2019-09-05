@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "sass": "^1.19.0"
+    "eslint": "^6.3.0",
+    "sass": "^1.23.0-module.beta.1",
+    "sass-lint": "^1.13.1"
   }
 }

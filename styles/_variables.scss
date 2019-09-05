@@ -1,8 +1,8 @@
 // COLORS
 $color-text-dark: #252526;
 $color-text-light: #868688;
-$color-primary: #E35441;
-$color-border-light: #EDE7E7;
+$color-primary: #e35441;
+$color-border-light: #ede7e7;
 
 // FONT
 $font-size-small: 13px;
@@ -17,28 +17,30 @@ $hover-transition: all .2s ease-in-out;
 
 // GLOBAL
 
-*{
+* {
   box-sizing: border-box;
 }
 
 html,
 body {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
+
 body {
-  font-family: 'Roboto', sans-serif;
   color: $color-text-dark;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
 h2,
 p {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  display: -webkit-box; // necessary to cut off text after two lines
+  // necessary to cut off text after two lines with "..." at the end
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 p {
@@ -46,12 +48,13 @@ p {
   font-size: $font-size-small;
 }
 
-button, 
+button,
 a {
-  transition: $hover-transition;
   text-decoration: none;
+  transition: $hover-transition;
 
   &:hover {
     cursor: pointer;
-  }
+  } 
 }
+ 

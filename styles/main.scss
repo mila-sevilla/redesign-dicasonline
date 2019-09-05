@@ -26,7 +26,6 @@
 }
 
 .mainContent {
-  // margin: 8px 20px 20px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -50,7 +49,7 @@
       scrollbar-width: none; // hides scrollbar for firefox
 
       &::-webkit-scrollbar {
-        height: 0px; // hides scrollbar for chrome
+        height: 0px ; // hides scrollbar for chrome
       }
 
       & > a {

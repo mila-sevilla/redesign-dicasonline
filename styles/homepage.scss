@@ -16,6 +16,11 @@
     & > img {
       height: 25px;
     }
+
+    &-title {
+      opacity: 0;
+      position: absolute;
+    }
   }
 
   &__menu-btn {

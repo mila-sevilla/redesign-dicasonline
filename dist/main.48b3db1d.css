@@ -55,6 +55,10 @@ a:hover {
 .header__logo > img {
   height: 25px;
 }
+.header__logo-title {
+  opacity: 0;
+  position: absolute;
+}
 .header__menu-btn {
   background: transparent;
   border: 0;
